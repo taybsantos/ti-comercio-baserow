@@ -7,8 +7,8 @@ services:
     environment:
       BASEROW_PUBLIC_URL: 'http://localhost'
     ports:
-      - "80:80"
-      - "443:443"
+      - "85:80"
+      - "445:443"
     volumes:
       - baserow_data:/baserow/data
 volumes:
